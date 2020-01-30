@@ -12,7 +12,7 @@ for(i = 0; i < array.length; i ++){
   }
   temp = array[i];
   array[i] = array[index];
-  array[index] = temp
+  array[index] = temp;
 }
 
 console.log(array);
